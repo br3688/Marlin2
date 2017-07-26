@@ -314,10 +314,9 @@
 
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
   
-  // Ultimaker
-  #define  DEFAULT_Kp 40
-  #define  DEFAULT_Ki 10
-  #define  DEFAULT_Kd 40
+  #define  DEFAULT_Kp 15 //40
+  #define  DEFAULT_Ki 2 //10
+  #define  DEFAULT_Kd 2 //40
   
   // Ultimaker
   //#define  DEFAULT_Kp 22.2
@@ -694,7 +693,7 @@
 
 // Invert the stepper direction. Change (or reverse the motor connector) if an axis goes the wrong way.
 #define INVERT_X_DIR true
-#define INVERT_Y_DIR true
+#define INVERT_Y_DIR false
 #define INVERT_Z_DIR false
 
 // @section extruder
@@ -728,7 +727,7 @@
 #define Z_MIN_POS 0
 #define X_MAX_POS 140
 #define Y_MAX_POS 140
-#define Z_MAX_POS 142.4
+#define Z_MAX_POS 142 //142.4
 
 //===========================================================================
 //========================= Filament Runout Sensor ==========================
